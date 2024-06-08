@@ -2,7 +2,7 @@ FROM docker.io/library/openjdk:17-jdk-alpine
 
 RUN mkdir /opt/cumulus
 
-RUN mkdir -p /cumulus/commercial
+RUN mkdir -p  /cumulus/commercial
 
 WORKDIR /opt/cumulus
 
